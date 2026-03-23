@@ -27,3 +27,12 @@ git push -u origin main
 ## checking out what changes are made in branch before pull
 git fetch origin
 git log HEAD
+
+## create a branch 
+git branch branch-name
+
+##Switch to that branch
+git checkout branchname
+
+##push of branch
+git push -u origin branchname

@@ -1,0 +1,29 @@
+In command Prompt
+
+## ✅ 1. Set your identity properly (run again)
+
+git config --global user.name "Kulsum Shireen"
+git config --global user.email "your_email@example.com"
+
+## ✅ 2. Check if it was saved
+
+git config --global --list
+
+---
+
+## ❗ If you DON’T see it
+git config user.name "Kulsum Shireen"
+git config user.email "your_email@example.com"
+
+
+## Push changes to remote
+
+git add .
+git commit -m "some comment"
+git push -u origin main
+
+
+
+## checking out what changes are made in branch before pull
+git fetch origin
+git log HEAD

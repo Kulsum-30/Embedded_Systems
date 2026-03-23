@@ -36,3 +36,9 @@ git checkout branchname
 
 ##push of branch
 git push -u origin branchname
+
+##Rename a branch
+git branch -m old-branch-name new-branch-name
+
+##Delete old branch from remote
+git push origin --delete old-branch-name
